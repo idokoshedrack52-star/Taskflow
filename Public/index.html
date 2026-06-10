@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure CI/CD Demo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Azure CI/CD Website</h1>
+        <p>Node.js + Azure App Service + GitHub Actions</p>
+    </header>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+    </nav>
+
+    <main>
+        <section class="card">
+            <h2>Project Overview</h2>
+
+            <p>
+                This website demonstrates Continuous Integration and
+                Continuous Deployment (CI/CD) using GitHub Actions and
+                Azure App Service.
+            </p>
+
+            <p>
+                Every time code is pushed to GitHub, Azure automatically
+                deploys the latest version of the application.
+            </p>
+
+            <button onclick="showMessage()">
+                Test Website
+            </button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Azure DevOps Project Demo 2026</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Congratulations! Your Azure website is working.");
+        }
+    </script>
+
+</body>
+</html>
