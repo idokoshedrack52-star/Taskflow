@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azure CI/CD Demo</title>
-
+    <title>TaskFlow</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Welcome to My Azure CI/CD Website</h1>
-        <p>Node.js + Azure App Service + GitHub Actions</p>
-    </header>
+<header>
+    <h1>TaskFlow</h1>
+    <p>Simple Task Management System</p>
+</header>
 
-    <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-    </nav>
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+</nav>
 
-    <main>
-        <section class="card">
-            <h2>Project Overview</h2>
+<div class="card">
 
-            <p>
-                This website demonstrates Continuous Integration and
-                Continuous Deployment (CI/CD) using GitHub Actions and
-                Azure App Service.
-            </p>
+    <h2>Welcome to TaskFlow</h2>
 
-            <p>
-                Every time code is pushed to GitHub, Azure automatically
-                deploys the latest version of the application.
-            </p>
+    <p>
+        TaskFlow helps teams organize and monitor
+        project tasks effectively.
+    </p>
 
-            <button onclick="showMessage()">
-                Test Website
-            </button>
-        </section>
-    </main>
+    <h3>Features</h3>
 
-    <footer>
-        <p>Azure DevOps Project Demo 2026</p>
-    </footer>
+    <ul>
+        <li>Create Tasks</li>
+        <li>Track Progress</li>
+        <li>Manage Deadlines</li>
+        <li>Improve Productivity</li>
+    </ul>
 
-    <script>
-        function showMessage() {
-            alert("Congratulations! Your Azure website is working.");
-        }
-    </script>
+    <button onclick="showMessage()">
+        Start Managing Tasks
+    </button>
+
+</div>
+
+<footer>
+    TaskFlow © 2026
+</footer>
+
+<script>
+function showMessage(){
+    alert("TaskFlow is running successfully on Azure!");
+}
+</script>
 
 </body>
 </html>
